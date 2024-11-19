@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+../src/one_server_one_client -n .:../src $*
+# for shared lib, use: opp_run -l ../src/one_server_one_client -n .:../src $*
